@@ -1,17 +1,5 @@
 
-## 🧰 Tech Stack
-
-- **Node.js**
-- **Express.js**
-- **dotenv** – environment variable management
-- **cors** – Cross-Origin Resource Sharing
-- **helmet** – security headers
-- **morgan** – request logging
-- **express-validator** – input validation
-
 ## 🚀 Getting Started
-
-
 
 ### Prerequisites
 
@@ -19,9 +7,12 @@
 - **npm** (comes with Node.js)
 
 Make sure you have the correct Node.js version installed:
+
 ```bash
 node -v
 # v18.18.0
+```
+
 ### Installation
 
 Clone the repository and install dependencies:
@@ -40,5 +31,6 @@ Start the backend using:
 node server.js
 ```
 
-The server will start on the port defined in .env file .
+The server will start on the port defined in your `.env` file.
+
 

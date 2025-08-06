@@ -1,6 +1,3 @@
-# BackendExpress
-
-A simple backend API built using [Express.js](https://expressjs.com/), designed with a minimal and secure setup using middleware such as `cors`, `helmet`, and `morgan`.
 
 ## 🧰 Tech Stack
 
@@ -14,10 +11,17 @@ A simple backend API built using [Express.js](https://expressjs.com/), designed 
 
 ## 🚀 Getting Started
 
+
+
 ### Prerequisites
 
-Make sure you have **Node.js** and **npm** installed.
+- **Node.js** version **18.18.0**
+- **npm** (comes with Node.js)
 
+Make sure you have the correct Node.js version installed:
+```bash
+node -v
+# v18.18.0
 ### Installation
 
 Clone the repository and install dependencies:
@@ -36,13 +40,5 @@ Start the backend using:
 node server.js
 ```
 
-The server will start on the port defined in your .env file or default to 5000.
+The server will start on the port defined in .env file .
 
-## 🛡️ Middleware
-
-This backend uses the following middleware:
-
-- `cors` to handle cross-origin requests
-- `helmet` to set security headers
-- `morgan` for logging HTTP requests
-- `express-validator` to validate incoming request data

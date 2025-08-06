@@ -22,19 +22,19 @@ Make sure you have **Node.js** and **npm** installed.
 
 Clone the repository and install dependencies:
 
-\`\`\`bash
+```bash
 git clone https://github.com/igoyadi/BackendExpress.git
 cd BackendExpress
 npm install
-\`\`\`
+```
 
 ### Running the Server
 
 Start the backend using:
 
-\`\`\`bash
+```bash
 node server.js
-\`\`\`
+```
 
 The server will start on the port defined in your .env file or default to 5000.
 
